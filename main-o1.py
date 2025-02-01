@@ -5,6 +5,7 @@ import json
 from dotenv import load_dotenv
 load_dotenv()
 
+# https://console.groq.com/docs/text-chat
 
 class GroqAPIClient:
     def __init__(self, custom_client=None):
